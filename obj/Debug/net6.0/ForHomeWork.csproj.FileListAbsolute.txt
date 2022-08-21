@@ -1,0 +1,15 @@
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\bin\Debug\net6.0\ForHomeWork.exe
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\bin\Debug\net6.0\ForHomeWork.deps.json
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\bin\Debug\net6.0\ForHomeWork.runtimeconfig.json
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\bin\Debug\net6.0\ForHomeWork.dll
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\bin\Debug\net6.0\ForHomeWork.pdb
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\obj\Debug\net6.0\ForHomeWork.csproj.AssemblyReference.cache
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\obj\Debug\net6.0\ForHomeWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\obj\Debug\net6.0\ForHomeWork.AssemblyInfoInputs.cache
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\obj\Debug\net6.0\ForHomeWork.AssemblyInfo.cs
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\obj\Debug\net6.0\ForHomeWork.csproj.CoreCompileInputs.cache
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\obj\Debug\net6.0\ForHomeWork.dll
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\obj\Debug\net6.0\refint\ForHomeWork.dll
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\obj\Debug\net6.0\ForHomeWork.pdb
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\obj\Debug\net6.0\ForHomeWork.genruntimeconfig.cache
+C:\Users\рог\Desktop\Block_3(C#)\ForHomeWork\obj\Debug\net6.0\ref\ForHomeWork.dll
