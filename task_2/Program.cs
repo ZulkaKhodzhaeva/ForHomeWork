@@ -11,11 +11,9 @@ int secondNumber = int.Parse(Console.ReadLine());
 
 if(firstNumber > secondNumber)
 {
-    Console.WriteLine("Максимальное число равно: ");
-    Console.WriteLine(firstNumber);
+    Console.WriteLine($"Максимальное число равно: {firstNumber}");
 }
 else
     {
-        Console.WriteLine("Максимальное число равно: ");
-        Console.WriteLine(secondNumber);
+        Console.WriteLine($"Максимальное число равно: {secondNumber}");
     }
