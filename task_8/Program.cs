@@ -4,6 +4,10 @@
 
 Console.WriteLine("Введите любое число число: ");
 int N = int.Parse(Console.ReadLine());
-int first = 1;
+int first = 2;
 
-
+while(first <= N)
+{
+    Console.WriteLine(first);
+    first += 2;
+}
