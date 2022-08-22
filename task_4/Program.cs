@@ -48,25 +48,22 @@ if(firstNumber > secondNumber)
 {
     if(firstNumber > thirdNumber)
     {
-        Console.Write("Максимальное число равно: ");
-        Console.WriteLine(firstNumber);
+        Console.Write($"Максимальное число равно: {firstNumber}");
+        // Console.WriteLine(firstNumber);
     }
     else
     {
-        Console.Write("Максимальное число равно: ");
-        Console.WriteLine(thirdNumber);
+        Console.Write($"Максимальное число равно: {thirdNumber}");
     }
 }
 else
 {
     if(secondNumber > thirdNumber)
     {
-        Console.Write("Максимальное число равно: ");
-        Console.WriteLine(secondNumber);  
+        Console.Write($"Максимальное число равно: {secondNumber}");
     }
     else
     {
-        Console.Write("Максимальное число равно: ");
-        Console.WriteLine(thirdNumber);
+        Console.Write($"Максимальное число равно: {thirdNumber}");
     }
 }

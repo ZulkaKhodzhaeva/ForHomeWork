@@ -7,7 +7,7 @@
 Console.WriteLine("Введите любое число число: ");
 int number = int.Parse(Console.ReadLine());
 
-if (number % 2 == 0)
+if (number % 2 == 0)   // "%" - это остаток от деления, если он равен 0, то...
 {
     Console.WriteLine("Число четное");
 }
