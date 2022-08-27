@@ -4,5 +4,5 @@
 Console.WriteLine("Введите любое трехзначное число: ");
 int num1 = int.Parse(Console.ReadLine());
 
-int num2 = num1 / 100;
+int num2 = (num1 / 10) % 10;
 Console.WriteLine($"Вторая цифра числа = {num2}");
