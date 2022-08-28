@@ -15,8 +15,8 @@ else
 {
     while(count <= newnumb)
     {
-        double cube = Math.Pow(per, 3);
-        Console.Write($"{par} ");
-        per++;
+        double cube = Math.Pow(count, 3);
+        Console.Write($"{cube} ");
+        count++;
     }
 }

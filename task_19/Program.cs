@@ -13,7 +13,7 @@ int num3 = (num1 / 1000) % 10;
 int num4 = (num1 % 100) / 10;
 int num5 = num1 % 10;
 
-if(999999 > num1 && num1 > 9999)
+if(100000 > num1 && num1 > 9999)
 
     if(num2 == num5 && num3 == num4)
     {
