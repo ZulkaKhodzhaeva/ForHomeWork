@@ -33,7 +33,7 @@ int num1 = int.Parse(Console.ReadLine());
 Console.Write("Введите конец полуинтервала: ");
 int num2 = int.Parse(Console.ReadLine());
 
-Console.WriteLine($"Полученный массив чисел: {String.Join(", ", GetArray(size, num1, num2))}");
-//PrintArray(GetArray(size, num1, num2));
+//Console.WriteLine($"Полученный массив чисел: {String.Join(", ", GetArray(size, num1, num2))}");
+PrintArray(GetArray(size, num1, num2));
 
 //буду рада если подскажете как закрыть в квадратные скобки первое и последнее значение.
