@@ -4,11 +4,11 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
 
-int NumPow(int numA, int numB)
+double NumPow(double numA, double numB)
 {
-    int result = 0;
-    int temp = numA;
-    for (int count = 1; count < numB; count++)
+    double result = 0;
+    double temp = numA;
+    for (double count = 1; count < numB; count++)
     {
         result = temp * numA;
         Console.Write($"{result},  ");
@@ -18,10 +18,13 @@ int NumPow(int numA, int numB)
 }
 
 Console.WriteLine("Введите число А: ");
-int firstNum = int.Parse(Console.ReadLine());
+double firstNum = double.Parse(Console.ReadLine());
 Console.WriteLine("Введите число B: ");
-int secondNum = int.Parse(Console.ReadLine());
+double secondNum = double.Parse(Console.ReadLine());
 
-int add = NumPow(firstNum, secondNum);
+double add = NumPow(firstNum, secondNum);
 Console.WriteLine();
 Console.WriteLine($"Произведение числа А после возведения в натуральную степень числа B: {add}");
+
+
+// я намеренно изменила тип из int в double, чтобы не получать отрицательные числа при большой степени возведения числа А.
