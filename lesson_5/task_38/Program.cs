@@ -53,7 +53,7 @@ double SearchMin(double[] arrayR2)
 
 Console.Write("Enter size of array: ");
 int sizeEl = int.Parse(Console.ReadLine());
-Console.Write("Enter size of number: ");
+Console.Write("Enter size of number multiple of 10: ");
 double sizeNum = double.Parse(Console.ReadLine());
 
 double[] myArray = NumbersR(sizeEl, sizeNum);
