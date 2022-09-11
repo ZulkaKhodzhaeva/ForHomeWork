@@ -32,10 +32,6 @@ void SumOdd(int[] arg1)
         {
             sum += arg1[i];
         }
-        else
-        {
-            sum += 0;
-        }
         Console.Write($"{arg1[i]}, ");
     }
     Console.WriteLine();

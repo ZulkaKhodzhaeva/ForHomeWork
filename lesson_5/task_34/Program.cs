@@ -22,10 +22,6 @@ void PrintQuantityEven(int[] array1)
         {
             temp ++;
         }
-        else
-        {
-            temp += 0;
-        }
         Console.Write($"{array1[i]}, ");
     }
     Console.WriteLine();
