@@ -20,7 +20,7 @@ int[,] TwoIntArray(int beginArray, int endArray, int row, int line)
     return newTwoRealArray;
 }
 
-void PrintArray1(int[,] matr)
+void PrintArray(int[,] matr)
 {
     for (int i = 0; i < matr.GetLength(0); i++)
     {
@@ -65,7 +65,7 @@ int endSegment = int.Parse(Console.ReadLine());
 Console.WriteLine("********************************************");
 
 int[,] newArrayMatrix = TwoIntArray(beginSegment, endSegment, rowsArray, linesArray);
-PrintArray1(newArrayMatrix);
+PrintArray(newArrayMatrix);
 
 Console.WriteLine("********************************************");
 Console.Write("Enter a number to search for: ");
