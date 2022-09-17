@@ -9,7 +9,7 @@ int PositiveNumbers(int[] array)
     int sumNumbers = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        if(array[i] > 0) 
+        if (array[i] > 0)
         {
             sumNumbers++;
         }
@@ -46,7 +46,7 @@ int newNums = SearchPositiveNums(countNumbers);
 Console.WriteLine();
 Console.WriteLine($"Положительных чисел: {newNums}");
 
-                                // // Способ при использовании фиксированного количества чисел (числа задаются пользователем).
+// // Способ при использовании фиксированного количества чисел (числа задаются пользователем).
 
 // Console.WriteLine("Введите 5 любых целых чисел (разделитель ", "): ");
 // string[] naturalNums = Console.ReadLine().Split(", ");
@@ -60,8 +60,8 @@ Console.WriteLine($"Положительных чисел: {newNums}");
 
 // Console.WriteLine($"Count of positive numbers: {sumPositiveNumbers}");
 
-                                // // Способ при использовании параметров задаваемых пользователем (размер, начало и конец массива),
-                                // // массив при этом рандомный.
+// // Способ при использовании параметров задаваемых пользователем (размер, начало и конец массива),
+// // массив при этом рандомный.
 
 // Console.Write("Введите размер массива: ");
 // int sizeArray = int.Parse(Console.ReadLine());
@@ -76,7 +76,7 @@ Console.WriteLine($"Положительных чисел: {newNums}");
 // int sum = PositiveNumbers(newRandomArray);
 // Console.WriteLine($"Count of positive numbers: {sum}");
 
-                                            // // Способ без использования методов и массивов.
+// // Способ без использования методов и массивов.
 
 // Console.WriteLine("Введите 5 чисел: ");
 // string[] naturalNums = Console.ReadLine().Split(", ");

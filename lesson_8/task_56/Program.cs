@@ -47,7 +47,7 @@ void SortMinSumLinesBiArray(int[,] biArray)
         {
             sumLines += biArray[i, j];
         }
-        Console.WriteLine($"Sum lines {i+1} = {sumLines} ");
+        Console.WriteLine($"Sum lines {i + 1} = {sumLines} ");
         if (sumFirstLines > sumLines)
         {
             sumFirstLines = sumLines;

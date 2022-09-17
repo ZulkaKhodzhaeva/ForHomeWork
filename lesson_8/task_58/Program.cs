@@ -40,7 +40,7 @@ int[,] MultiplicationMatrix(int[,] firstArray, int[,] secondArray)
         {
             for (int k = 0; k < secondArray.GetLength(0); k++)
             {
-                arrayMulti[i,j] += firstArray[i,k]*secondArray[k,j];         
+                arrayMulti[i, j] += firstArray[i, k] * secondArray[k, j];
             }
         }
     }
@@ -51,7 +51,7 @@ Console.Write("Enter count of rows: ");
 int rowsArray = int.Parse(Console.ReadLine());
 Console.Write("Enter count of lines = rows: ");
 int linesArray = int.Parse(Console.ReadLine());
-if(rowsArray != linesArray)
+if (rowsArray != linesArray)
 {
     Console.WriteLine("Enter correct value!");
     return;
@@ -71,7 +71,7 @@ Console.WriteLine("Second matrix: ");
 PrintArray(secondArrayMatrix);
 Console.WriteLine("********************************************");
 Console.WriteLine("Multiplication first matrix on second matrix: ");
-int[,] multiplicationArrayMatrix = MultiplicationMatrix(firstArrayMatrix,secondArrayMatrix);
+int[,] multiplicationArrayMatrix = MultiplicationMatrix(firstArrayMatrix, secondArrayMatrix);
 PrintArray(multiplicationArrayMatrix);
 
 
