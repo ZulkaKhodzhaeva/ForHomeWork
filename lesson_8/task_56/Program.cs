@@ -64,11 +64,6 @@ Console.Write("Enter count of rows: ");
 int rowsArray = int.Parse(Console.ReadLine());
 Console.Write("Enter count of lines != rows: ");
 int linesArray = int.Parse(Console.ReadLine());
-if (rowsArray == linesArray)
-{
-    Console.WriteLine("Введите значения не равные друг другу");
-    return;
-}
 Console.Write("Enter beginning of the segment: ");
 int beginSegment = int.Parse(Console.ReadLine());
 Console.Write("Enter end of the segment: ");

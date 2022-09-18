@@ -15,7 +15,7 @@ int[,,] TresArray(int heightArray, int widthArray, int depthArray)
         {
             for (int k = 0; k < newTresArray.GetLength(2); k++)
             {
-                newTresArray[i, j, k] = number;
+                newTresArray[j, k, i] = number;
                 number += 3;
             }
         }
@@ -32,7 +32,7 @@ void PrintArray(int[,,] matr)
         {
             for (int k = 0; k < matr.GetLength(2); k++)
             {
-                Console.Write($"{matr[i, j, k]} ({i}, {j}, {k})\t");
+                Console.Write($"{matr[j, k, i]} ({j}, {k}, {i})\t");
                 count++;
             }
             Console.WriteLine();
@@ -42,21 +42,24 @@ void PrintArray(int[,,] matr)
 
 
 
-// Console.Write("Enter count of rows: ");
-// int rowsArray = int.Parse(Console.ReadLine());
-// Console.Write("Enter count of lines = rows: ");
-// int linesArray = int.Parse(Console.ReadLine());
-// if(rowsArray != linesArray)
-// {
-//     Console.WriteLine("Enter correct value!");
-//     return;
-// }
-// Console.Write("Enter beginning of the segment: ");
-// int beginSegment = int.Parse(Console.ReadLine());
-// Console.Write("Enter end of the segment: ");
-// int endSegment = int.Parse(Console.ReadLine());
-// Console.WriteLine("********************************************");
+Console.Write("Enter count of height array: ");
+int height = int.Parse(Console.ReadLine());
+Console.Write("Enter count of width array: ");
+int width = int.Parse(Console.ReadLine());
+if(height != width) 
+{
+    Console.WriteLine("Enter to coorect value!");
+    return;
+}
+Console.Write("Enter count of depth array: ");
+int depth = int.Parse(Console.ReadLine());
+if(height != depth) 
+{
+    Console.WriteLine("Enter to coorect value!");
+    return;
+}
+Console.WriteLine("********************************************");
 
-int[,,] arrayMatrix = TresArray(2, 2, 2);                                               //(beginSegment, endSegment, linesArray, rowsArray);
+int[,,] arrayMatrix = TresArray(height, width, depth);
 PrintArray(arrayMatrix);
 
